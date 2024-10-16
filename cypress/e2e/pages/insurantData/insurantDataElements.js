@@ -9,5 +9,6 @@ export const insurantDataElements = {
     city:'#city',
     occupation:'#occupation',
     speeding:'#speeding',
+    nextEnterProductData: '#nextenterproductdata',
 
 }

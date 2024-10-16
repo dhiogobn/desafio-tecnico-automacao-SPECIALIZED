@@ -18,11 +18,8 @@ describe('Form', () => {
         })
 
         When("I fill out the Enter Vehicle Data form and proceed",() => {
-            if (vehicleDataPage) {
-                vehicleDataPage.fillVehicleDataForm();
-                vehicleDataPage.clickNext();
-            }
-
+            vehicleDataPage.fillVehicleDataForm();
+            vehicleDataPage.clickNext();
         })
 
         And("I fill out the Enter Insurant Data form and proceed", () => {
